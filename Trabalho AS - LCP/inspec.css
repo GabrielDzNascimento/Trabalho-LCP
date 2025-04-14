@@ -1,0 +1,64 @@
+body {
+    background-color: #9AEDFF; 
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40%;
+    overflow-y: scroll
+}
+
+.container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    width: 300px; 
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h6 {
+    margin-bottom: 5px;
+}
+
+.pneu-container {
+    text-align: center;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+}
+
+table {
+    width: 100%;
+
+}
+
+th, td {
+    padding: 15px;
+    border: 1px solid #ccc;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+
+
+
+@media (max-width: 768px) {
+    table {
+        font-size: 14px;
+    }
+    td {
+        padding: 10px;
+    }
+}
+
+p {
+    color: #0f0f0f;
+    text-decoration: underline;
+}
